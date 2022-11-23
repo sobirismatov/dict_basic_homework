@@ -7,4 +7,13 @@ def count_all(txt):
     Returns:
         dict: dictionary with letters and digits
     """
-    return
+    k=0 #harflar
+    r=0 #raqamlar
+    for i in txt:
+        if i.isalpha():
+            k+=1
+        if i.isdigit():
+            r+=1
+    return { "LETTERS":  k, "DIGITS": r}
+
+print(count_all("salaom112"))
