@@ -14,6 +14,6 @@ def count_all(txt):
             k+=1
         if i.isdigit():
             r+=1
-    return { "LETTERS":  k, "DIGITS": r}
+    return { "LETTERS": k, "DIGITS": r}
 
 print(count_all("salaom112"))
