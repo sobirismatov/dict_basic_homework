@@ -7,4 +7,7 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+ 
+    k=dict(zip(key,value))
+    return k 
+print(create_dictionary(["ism","yosh"],["kamron","24"]))
